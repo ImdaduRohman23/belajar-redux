@@ -20,7 +20,7 @@ function NavbarComponent(props) {
         <div>
         <Navbar expand='md'>
             <Container>
-                <NavbarBrand href="/">Imdadu Belajar</NavbarBrand>
+                <NavbarBrand href="/">{props.title}</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                 <Nav className="me-auto" navbar>
